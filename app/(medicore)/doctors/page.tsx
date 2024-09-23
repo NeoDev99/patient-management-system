@@ -21,7 +21,7 @@ const Doctors = () => {
     };
 
     const handleDoctorClick = (doctorId: string) => {
-        router.push(`/doctor/${doctorId}`);
+        router.push(`/doctors/${doctorId}`);
     };
 
     return (
